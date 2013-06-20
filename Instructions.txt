@@ -1,0 +1,32 @@
+Hello User
+
+I, Abhimanyu welcomes you in my Project Junior.
+
+Well before checking my project I would like to remind you to make sure of certain steps to follow:
+
+* Download everything;
+* Hope your Flask/python and SQLite3 are installed and working properly;
+* Here 'message.db' file is my DataBase file;
+* 'message' is the name of my DataBase;
+* Please fire the command 'python message.py' in the 'cmd' to run the DataBase inside the path where you have downloaded the project;
+* Once you are done with the 'python message.py', you can fire the server command to run the server;
+* 'junior.py' is the file in which all the routes a declared;
+* To run the server you need to fire 'python junior.py' command in the same path of your cmd;
+* As the server statrs, open your browser and at the address(url) bar type "http://127.0.0.1:5000/" and the online page will appear 
+   ## note:[Hope you have the same localhost address(as "http://127.0.0.1:5000/"), and if incase its different please type that.];
+* To check the Message Page you need to LOGIN first;
+* Click on 'Login' from the Navbar at the top of the page;
+* your Username is 'username' and Password is 'password' respectively ,
+ i.e., Username= username
+        Password= password
+ ;
+
+* Now you are into the message page, and in here you can view the existing messages from the database and as well as you can post a new message, all can be done in the same page itself.
+
+Hope you like my project.
+Please do send me your feedbacks at: abhimanyuchoithramani@rediffmail.com
+
+Yours Faithfully
+Abhimanyu Choithramani
++91-9038409517;
++91-9831199551.
