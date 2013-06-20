@@ -1,0 +1,36 @@
+{% extends "template.html "%}
+{% block content %}
+		<h3>Welcome, Your are Logged In</h3>
+		Click <a href="/logout">here</a> to Logout
+		<h2>You are in the Message Page</h2>
+		<br/>
+		<p><h4>In this page, You can view the Existing Messages and can also Submit your own message.</h4></p>
+<br/><br/>
+{% for message in get_flashed_messages() %}
+		<div class=flash>
+			{{ message }}
+		</div>
+	{% endfor %}
+
+<h3>Enter Your Message:</h3><br/>
+
+<form action="{{ url_for('add_entry') }}" method=post class=add-entry>
+	<dl>
+		<dt>Message:
+		<dd><input type="text" name="input_msg" maxlength=80 style="width:300px">*Maximum Length = 80
+	</dl>
+	<input type=submit value="Save">
+
+</form>
+
+<h3>The Existing Messages:</h3>
+{% for item in message %}
+	Message: {{ item.msg_msg }} <br/><br/>
+	{% else %}
+		<li><em>No Enteries so far..</em>
+	{% endfor %}	
+
+
+
+{% endblock %}
+        
